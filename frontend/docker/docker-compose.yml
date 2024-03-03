@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  assistants:
+    container_name: webapp_container
+    image: 'webapp:latest'
+    build:
+      context: ..
+      dockerfile: ./docker/Dockerfile
+    ports:
+      - "3000:3000"
+    restart: on-failure
+    entrypoint: "npm start"

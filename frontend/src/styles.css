@@ -1,0 +1,58 @@
+/* ChatWindow */
+.chat-window {
+    width: 600px;
+    margin: 32px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  /* MessageList */
+  .message-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .message {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+  .user {
+    background-color: #cce5ff;
+    text-align: right;
+  }
+  
+  .assistant {
+    background-color: #eaffd0;
+    text-align: left;
+  }
+  
+  /* MessageInput */
+  .message-input {
+    display: flex;
+    flex-direction: column; /* Change to column layout */
+    align-items: flex-start; /* Align input to the left */
+    margin-top: 10px;
+  }
+  
+  .message-input input {
+    width: 100%; /* Make the input full width */
+    padding: 8px;
+    margin-bottom: 10px; /* Add some spacing between input and button */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .message-input button {
+    align-self: flex-end; /* Align button to the right */
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
