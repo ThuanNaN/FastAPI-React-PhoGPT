@@ -1,0 +1,4 @@
+__pycache__/
+__pypackages__/
+.DS_Store
+model_repository/
